@@ -50,12 +50,16 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 Script files
 
 ComputeCoeff        - Used to create the data file "Coeff_110_intval.mat"
+
 ComputeCoeff_intval - Used to create the data file "Coeff_300.mat"
+
 
 
 script_CAP            - Produce a computer-assisted-proof of the existence
                         of a periodic orbit, with the data Coeff_110_intval
+
 script_ProduceFigures - Generates figures displaying the periodic orbits
+
 script_Rate_of_Decay  - Estimate the critical value of A* between where the
                         Fourier coefficients grow/decay exponentially.
 
@@ -65,7 +69,9 @@ Auxiliary Functions
 quadratic_cauchy_product ... 
         -- Computes the Cauchy product of two sequences (vectors) with 
             possibly different lengths
+            
 Y_bound -- Computes the Y_0 constant from Lemma 3.6
+
 Z_bound -- Computes the Z_1 constant and Z_2(r) polynomial from Lemma 3.6
 
 
